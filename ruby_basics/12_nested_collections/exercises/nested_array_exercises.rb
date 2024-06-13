@@ -73,9 +73,3 @@ def find_favorite(array_of_hash_objects)
   # return true to the :is_my_favorite? key
   array_of_hash_objects.find { |x| x[:is_my_favorite?] == true}
 end
-
-find_favorite([
-  { name: 'Ruby', is_my_favorite?: true },
-  { name: 'JavaScript', is_my_favorite?: false },
-  { name: 'HTML', is_my_favorite?: false }
-])
